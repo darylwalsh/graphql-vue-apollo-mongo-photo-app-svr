@@ -1,4 +1,5 @@
 const defaultPort = 4000
+const defaultURI = ''
 
 export interface Environment {
   apollo: {
@@ -6,7 +7,9 @@ export interface Environment {
     playground: boolean
   }
   port: number | string
+  mongouri: string | string 
 }
+
 
 export const environment: Environment = {
   apollo: {
@@ -14,4 +17,5 @@ export const environment: Environment = {
     playground: process.env.APOLLO_PLAYGROUND === 'true',
   },
   port: process.env.PORT || defaultPort,
+  mongouri: process.env.MONGO_URI || defaultURI
 }
