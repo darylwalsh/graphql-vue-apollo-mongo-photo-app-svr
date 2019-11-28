@@ -1,6 +1,6 @@
 {
   "name": "gql-apollo-mongo-photo-svr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "GraphQL Apollo MongoDB server for Vue photo app",
   "main": "src/main.ts",
   "scripts": {
