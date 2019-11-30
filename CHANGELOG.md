@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/darylwalsh/graphql-vue-apollo-mongo-photo-app-svr/compare/v0.1.3...v0.1.4) (2019-11-30)
+
+
+### Features
+
+* **gql_resolvers:** add post/user resolvers gql ([af6f34a](https://github.com/darylwalsh/graphql-vue-apollo-mongo-photo-app-svr/commit/af6f34a777ba00582aeca9c7f76be572ab5b0c1a))
+
 ### [0.1.3](https://github.com/darylwalsh/graphql-vue-apollo-mongo-photo-app-svr/compare/v0.1.2...v0.1.3) (2019-11-28)
 
 
