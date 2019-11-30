@@ -16,6 +16,7 @@ mongoose
   .then(() => console.log('DB connected'))
   .catch(err => console.error(err))
 
+  // Create Apollo/GraphQL server
 const server = new ApolloServer({
   resolvers,
   typeDefs,
