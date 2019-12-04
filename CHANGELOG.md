@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/darylwalsh/graphql-vue-apollo-mongo-photo-app-svr/compare/v0.1.4...v0.1.5) (2019-12-04)
+
+
+### Features
+
+* **update_gql_typedefs:** add _id filed to Post typedef ([55c7a8f](https://github.com/darylwalsh/graphql-vue-apollo-mongo-photo-app-svr/commit/55c7a8f97ccd1cb3aaedb4dae883adae327d13c3))
+
 ### [0.1.4](https://github.com/darylwalsh/graphql-vue-apollo-mongo-photo-app-svr/compare/v0.1.3...v0.1.4) (2019-11-30)
 
 
