@@ -3,7 +3,7 @@ import { gql } from 'apollo-server'
 export default gql`
   type Query {
     getTodos: [Todo]
-    getUser: User,
+    getUser: User
     getPosts: [Post]
   }
 
@@ -23,6 +23,7 @@ export default gql`
   }
 
   type Post {
+    _id: ID
     title: String!
     imageUrl: String!
     categories: [String]!

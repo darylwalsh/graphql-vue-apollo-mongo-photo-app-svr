@@ -41,6 +41,8 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/await-thenable': 'off',
     '@typescript-eslint/no-misused-promises': 'off',
+    'import/no-default-export': 'off',
+    "import/no-named-as-default": 0
 
     //
     // eslint base

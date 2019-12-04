@@ -64,7 +64,14 @@ export default {
              description,
              createdBy: creatorId,
            }).save()
-           return newPost
+           return newPos query {
+          getPosts {
+            _id
+            title
+            imageUrl
+            description
+          }
+        }
          },
     signupUser: async (
       _: {},
